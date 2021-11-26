@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+  color: rgb(225, 230, 235);
+  background-color: #333;
+}
+
+.header1 {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(236, 229, 229);
+  position: fixed;
+  background-color: rgba(3, 3, 3, 0.9);
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.h-left {
+  display: flex;
+}
+.anh__logo {
+  height: 50px;
+  width: 100px;
+  padding-left: 15px;
+}
+.material-icons {
+  padding: 10px 0 0 20px;
+}
+
+.h-search {
+  width: 40%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: center;
+}
+
+.box__search {
+  display: flex;
+  height: 25px;
+  width: 100%;
+  align-items: center;
+  background-color: #333;
+}
+
+.box__s {
+  height: 30px;
+  width: 100%;
+  color: rgb(233, 220, 220);
+  background-color: #333;
+}
+.h-right {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 10px;
+}
+.dang_nhap {
+  display: flex;
+  align-items: center;
+}
+
+/* body {
+  height: 100vh;
+} */
+.sidebar {
+  list-style: none;
+  display: flex;
+  width: 210px;
+  height: 100vh;
+  background-color: rgb(39, 36, 36);
+  box-sizing: border-box;
+  flex-direction: column;
+  overflow-y: scroll;
+  position: fixed;
+  top: 60px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 5px;
+}
+.sidebar__cat {
+  line-height: 15px;
+  font-size: 18px;
+  color: aliceblue;
+  padding-left: 0px;
+  box-sizing: border-box;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.sidebar__cat span {
+  color: azure;
+}
+.material-icons {
+  padding-right: 20px;
+}
+
+.menu__width {
+  top: 56px;
+  left: 230px;
+  position: fixed;
+}
+.dwo_search {
+  font-size: 20px;
+}
+
+.main__video {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  z-index: -1;
+  padding: 100px 5px 0 250px;
+  box-sizing: border-box;
+}
+.video video {
+  width: 300px;
+  height: 250px;
+}
+.video {
+  width: 300px;
+  height: 350px;
+  margin: 5px;
+  color: aliceblue;
+
+  font-size: 19px;
+}
