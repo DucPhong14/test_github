@@ -1,0 +1,20 @@
+.col-md-12 {
+  padding: 0;
+}
+.icon_name {
+  margin-right: 2px;
+}
+.my_intro {
+  text-align: justify;
+}
+
+.main_about .col-md-6 .my_intro,
+.main_about .lead {
+  color: rgb(88, 88, 82);
+}
+.footer {
+  margin-top: 50px;
+  padding-top: 40px;
+  background-color: rgb(243, 243, 243);
+  padding-bottom: 35px;
+}
